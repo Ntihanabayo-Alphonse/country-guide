@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Ysabeau+Infant&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #000;
+    font-family: 'Ysabeau Infant', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.country_container{
+    width: 35%;
+    background: #fff;
+    border: 1px #fff solid;
+    border-radius: 15px;
+    padding:  0 8px 20px 20px;
+}
+
+.search_area{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.search_area #search_input{
+    width: 68%;
+    padding: 8px 4px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #00b200;
+    font-size: 16px;
+    color: #222;
+}
+
+.search_area #search_btn{
+    padding: 10px 30px;
+    border: none;
+    background: #00b200;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.flag{
+    text-align: center;
+}
+
+.flag img{
+    width: 200px;
+    height: 160px;
+    object-fit: cover;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
+}
+
+.country_details{
+    margin-top: 30px;
+}
+
+.country_details{
+    line-height: 1.5;
+}
+
+.country_details p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.country_details p span{
+    color:#626262
+}
+
+#country_info h3{
+    font-size: 24px;
+    color: red;
+    text-align: center;
+}
+
+.signature{
+    position: absolute;
+    bottom: 1%;
+    left: 2%;
+    color: #fff;
+    font-family: 'Satisfy', cursive;
+    font-size: 18px;
+}
+
+.signature a{
+    color: #00b200;
+}
+
+
+
+
+
+
